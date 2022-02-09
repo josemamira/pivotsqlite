@@ -1,4 +1,4 @@
--- this query are using a subquery (t) to extract year data and filter by one observatory. In this case we are using the #1 observatory (obs=1)
+-- This query are using a subquery (t) to extract year data and filter by one observatory. In this case we are using the #1 observatory (obs=1)
 -- You must create as many columns as there are years in the table
 
 SELECT DISTINCT anyo, group_concat(valor, ',') OVER (PARTITION BY anyo) AS group_concat
