@@ -1,7 +1,7 @@
 # pivotsqlite
 This is only a pivot example for sqlite.
 As you know SQLite don't admit  dynamic sql querys. For this reason I write an example of query.
-This is most common in climate date imported from CSV files with a lot of observatory data.
+This is most common in climate date imported from CSV files with a lot of observatory data (for example in AEMET open data).
 
 In the example we have one a table with 3 columns:
 |DATE (text)     |VALUE   (float)                |#ID OBSERVATORY (integer)    |
