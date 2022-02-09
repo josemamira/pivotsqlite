@@ -1,9 +1,6 @@
 -- This query are using a subquery (t) to extract year data and filter by one observatory. In this case we are using the #1 observatory (obs=1)
 -- You must create as many columns as there are years in the table
 
-SELECT DISTINCT anyo, group_concat(valor, ',') OVER (PARTITION BY anyo) AS group_concat
-FROM (select substr(fecha,1,4) as anyo, valor from obs where obs=1) t;
-
 SELECT 
        MAX(CASE WHEN "anyo" == '1951' THEN valor END) as 'a1951',
        MAX(CASE WHEN "anyo" == '1952' THEN valor END) as 'a1952',
