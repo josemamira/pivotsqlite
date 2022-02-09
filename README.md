@@ -26,9 +26,9 @@ Example:
 
 
 # Files
-schema.sql
-data.sql: Only 3 year of data for 3 observatories. #Observatories are 1,2,3
-pivot.sql
+- schema.sql
+- data.sql: Only 3 year of data for 3 observatories. #Observatories are 1,2,3
+- pivot.sql
 
 
 Run this files in your SQLite browser or webs like sqlfiddle.com and enjoy
