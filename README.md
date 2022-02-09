@@ -27,9 +27,9 @@ Example:
 
 
 # Files
-- [schema.sql](https://github.com/josemamira/pivotsqlite/blob/main/data.sql)
-- data.sql: Only 3 year of data for 3 observatories. #Observatories are 1,2,3
-- pivot.sql
+- [schema.sql](https://github.com/josemamira/pivotsqlite/blob/main/schema.sql)
+- [data.sql](https://github.com/josemamira/pivotsqlite/blob/main/data.sql): Only 3 year of data for 3 observatories. #Observatories are 1,2,3
+- [pivot.sql](https://github.com/josemamira/pivotsqlite/blob/main/pivot.sql)
 
 
 Run this files in your SQLite browser or webs like sqlfiddle.com and enjoy
