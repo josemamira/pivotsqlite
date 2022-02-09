@@ -18,11 +18,11 @@ In the example we have one a table with 3 columns:
 This query (pivot.sql) pivot (transpose in spreadsheet) creating a new table with new columns, one for each year for an observatory.
 Example:
 
-|1951|1952|1953|
-|----|----|----|
-|18.2|2.5 |9.2 |
-|10.4|12.5|3.2 |
-|... |... |... |
+|a1951|a1952|a1953|
+|-----|-----|-----|
+|18.2 |2.5  |9.2  |
+|10.4 |12. 5|3.2  |
+|...  |...  |...  |
 
 
 
