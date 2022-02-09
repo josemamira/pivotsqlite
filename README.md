@@ -12,10 +12,10 @@ In the example we have one a table with 3 columns:
 |...             |...                            |...                          |
 |20220209        |21.8                           |456                          |
 
-Date is a text with this format: YYYYMMDD
+> **Note:** Date is a text with this format: YYYYMMDD
 
 # Pivot query
-This query (pivot.sql) pivot (transpose in Spreads apps) creating a new table with new columns, one for each year
+This query (pivot.sql) pivot (transpose in spreadsheet) creating a new table with new columns, one for each year for an observatory.
 Example:
 
 |1951|1952|1953|
@@ -27,7 +27,7 @@ Example:
 
 # Files
 schema.sql
-data.sql: Only 3 year of data for 3 observatories
+data.sql: Only 3 year of data for 3 observatories. #Observatories are 1,2,3
 pivot.sql
 
 
